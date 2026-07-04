@@ -10,7 +10,7 @@ source ./setup.sh
 uv lock --check
 
 # *** lint + test ***
-lefthook run test
+lefthook run tset
 
 # *** all done ***
 GREEN='\033[0;32m'
